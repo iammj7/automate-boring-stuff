@@ -1,3 +1,4 @@
+# page 64
 import random
 
 
@@ -22,6 +23,6 @@ def getAnswer(answerNumber):
         return "Very doubtful"
 
 
-r = random.randint(1, 9) # generating random int number saving it in r var
-fortune = getAnswer(r) # calling func and passing r as argu
-print(fortune) # printing the answer 
+r = random.randint(1, 9)  # generating random int number saving it in r var
+fortune = getAnswer(r)  # calling func and passing r as argu
+print(fortune)  # printing the answer
